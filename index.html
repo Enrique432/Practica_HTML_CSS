@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sasuke Uchiha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="image-container">
+      <a href="index.html">
+        <img src="images/Clan Uchiha.jpg" alt="Clan Uchiha">
+      </a>
+    </div>
+    <div class="desktop-menu">
+      <ul class="menu">
+        <li class="list-item">
+          <a href="projects.html">Proyectos</a>
+        </li>
+        <li class="list-item">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="list-item">
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-menu">
+      <label for="hamburger-input">Menu</label>
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <label id="hamburger-menu" for="hamburger-input">
+        <ul class="menu">
+          <li class="list-item">
+            <a href="projects.html">Proyectos</a>
+          </li>
+          <li class="list-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="list-item">
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
+        <div class="overlay"></div>
+      </label>
+    </div>
+  </nav>
+  <!-- Header -->
+  <!-- Puse mas imagenes porque el responsive breakerpoints me daba solo dos escalas y no se veia bien -->
+  <header class="header">
+    <picture class="img-container">
+      <img
+        sizes="(max-width: 1400px) 100vw, 1400px"
+        srcset="
+          images/header/235x132.jpg,         ,
+          images/header/480x360.jpg,
+          images/header/512x287.jpg,
+          images/header/640x351.jpg,
+          images/header/748x420.jpg,
+          images/header/821x439.jpg,
+          images/header/1024x575.jpg,
+          images/header1430x800.jpg,
+          images/header/1923x1080_scale,w_200.jpg,
+          images/header/1923x1080_scale,w_474.jpg,         
+          images/header/1923x1080.jpg" 
+        src="images/header/1923x1080.jpg"
+        alt=""
+      >   
+          
+    </picture>
+    <div class="text-content">
+      <h1>Sasuke Uchiha</h1>
+    </div>
+  </header>
+  <!-- End header -->
+  <!-- End Navbar -->
+  <main class="main-content">
+    <section class="introduction">
+      <h2>Sasuke Uchiha</h2>
+      <p>Mi nombre es Sasuke Uchiha. Odio muchas cosas, y no me gusta nada en particular. Lo que tengo no es un sueño, porque yo voy a hacerlo realidad.</p>
+      <p> Voy a restablecer mi clan, y a destruir a alguien en específico.</p>
+    </section>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <div class="skill">
+          Sharingan
+          <div class="progress-container">
+            <div class="progress-bar animate-progress-bar w-100"></div>
+          </div>
+        </div>
+        <div class="skill">
+          Rinnegan
+          <div class="progress-container">
+            <div class="progress-bar animate-progress-bar w-50"></div>
+          </div>
+        </div>
+        <div class="skill">
+          Mangekyou Sharingan
+          <div class="progress-container">
+            <div class="progress-bar animate-progress-bar w-75"></div>
+          </div>
+        </div>
+        <div class="skill">
+          Taijustsu
+          <div class="progress-container">
+            <div class="progress-bar animate-progress-bar w-25"></div>
+          </div>
+        </div>
+       </div>
+    </section>
+  </main>
+  <!-- Carousel -->
+  <section class="carousel-container">
+    <div class="carousel-slides">
+      <div class="slide" id="slide1">
+        <article>
+          <img src="images/carousel/original-sharingan-1024.jpg" alt="Nauto">
+          <a href="https://www.crunchyroll.com/es/series/GY9PJ5KWR/naruto" target="_blank" rel="noopener noreferrer">
+            <div class="text-content main-bg">
+              <h3>Naruto</h3>
+              <p>Disfuta el comienzo de la historia entre Naruto y Sasuke</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="slide" id="slide2">
+        <article class="yard-bg">
+          <img src="images/carousel/Mangek.jpg" alt="Shippuden">
+          <a href="https://www.crunchyroll.com/es/series/GYQ4MW246/naruto-shippuden" target="_blank" rel="noopener noreferrer">
+            <div class="text-content main-bg">
+              <h3>Shippuden</h3>
+              <p>Ver Naruto Shippuden desde el capitulo 1</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="slide" id="slide3">
+        <article>
+          <img src="images/carousel/Rinnegan.jpg" alt
+          ="Figuras">
+          <a href="https://www.megaotaku.com/naruto" target="_blank" rel="noopener noreferrer">
+            <div class="text-content main-bg">
+              <h3>Figuras</h3>
+              <p>Las mejores figuras y funkos de Naruto</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+    <div class="carousel-links">
+      <a class="carousel-dot" href="#slide1"></a>
+      <a class="carousel-dot" href="#slide2"></a>
+      <a class="carousel-dot" href="#slide3"></a>
+    </div>
+  </section>
+  <!-- End Carousel -->
+  <!-- Formulario -->
+  <form class="form-container" action="/contact" method="post">
+    <div class="input-text-group">
+      <div class="form-group">
+        <label class="text-label" for="name">Nombre</label>
+        <input required type="text" id="name" name="name" placeholder="Pon tu nombre">
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="surname">Apellidos</label>
+        <input placeholder="Pon tus Apellidos" required type="text" name="text" id="surname">
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="phone">Teléfono</label>
+        <input
+          required
+          placeholder="Número de teléfono"
+          id="phone"
+          type="tel"
+          name="phone"
+          pattern="[0-9]+"
+        >
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="githubTag">Github username</label>
+        <input
+          required
+          id="githubTag"
+          type="text"
+          name="githubTag"
+          pattern="^@[^\s]+"
+          placeholder="Con este formato (@<username>)"
+        >
+      </div>
+      <div class="form-group">
+        <p class="text-label">¿Cómo me conociste?</p>
+        <div class="radio-group">
+          <label for="university">Universidad</label>
+          <input required type="radio" name="contact" id="university" value="university">
+        </div>
+        <div class="radio-group">
+          <label for="keepcoding">Keepcoding kick-off</label>
+          <input required type="radio" name="contact" id="keepcoding" value="keepcoding">
+        </div>
+        <div class="radio-group">
+          <label for="school">Colegio</label>
+          <input required type="radio" name="contact" id="school" value="school">
+        </div>
+        <div class="radio-group">
+          <label for="github">En Github</label>
+          <input required type="radio" name="contact" id="github" value="github">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="text-label" for="moreInfo">Preguntame</label>
+      <textarea required name="moreInfo" id="moreInfo" maxlength="180" placeholder="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <button class="btn" type="submit">Enviar</button>
+    </div>
+  </form>
+  <!-- End Formulario -->
+  <!-- Footer -->
+  <footer id="contacto" class="footer footer-bg">
+    <div class="rrss">
+      <a class="link" href="https://www.youtube.com/watch?v=_ohUaEmkngs" target="_blank" rel="noopener noreferrer">
+        <svg class="youtube" stroke="none" viewBox="0 0 32 32">
+          <path d="M25.3 4.7H6.7C2.9 4.7 0 7.6 0 11.3v9.3c0 3.7 2.9 6.7 6.7 6.7h18.7c3.7 0 6.7-2.9 6.7-6.7v-9.3c-.1-3.7-3-6.6-6.8-6.6zm-4.5 11.7L12 20.5c-.3.1-.5 0-.5-.3v-8.5c0-.3.3-.4.5-.3l8.8 4.4c.3.2.3.5 0 .6z"></path>
+        </svg>
+      </a>
+      <a class="link" href="https://www.instagram.com/sasuke/" target="_blank" rel="noopener noreferrer">
+        <svg class="instagram" stroke="none" viewBox="0 0 32 32">
+          <path d="M22.6 0h-13C4.3 0 0 4.3 0 9.5v13C0 27.7 4.3 32 9.5 32h13c5.2 0 9.5-4.3 9.5-9.5v-13c.1-5.2-4.2-9.5-9.4-9.5zm6.3 22.6c0 3.5-2.8 6.3-6.3 6.3h-13c-3.5 0-6.3-2.8-6.3-6.3V9.5c0-3.5 2.8-6.3 6.3-6.3h13c3.5 0 6.3 2.8 6.3 6.3v13.1z"></path>
+          <path d="M16.1 7.8c-4.6 0-8.3 3.7-8.3 8.3s3.7 8.3 8.3 8.3 8.3-3.7 8.3-8.3-3.8-8.3-8.3-8.3zm0 13.4c-2.8 0-5.1-2.3-5.1-5.1s2.3-5.1 5.1-5.1 5.1 2.3 5.1 5.1-2.3 5.1-5.1 5.1z"></path><circle cx="24.4" cy="7.8" r="2"></circle>
+        </svg>
+      </a>
+      <a class="link" href="https://twitter.com/sasuke18__" target="_blank" rel="noopener noreferrer">
+        <svg class="fill-current text-black hover:text-primary-500 w-5 h-5 twitter" stroke="none" viewBox="0 0 32 32">
+          <path d="M31.6 5.7c-.7.3-1.5.5-2.3.8.8-.8 1.5-1.7 1.9-2.9.1-.3-.3-.5-.5-.4-1.1.7-2.1 1.1-3.3 1.3H27c-.3 0-.4-.1-.5-.3-1.3-.9-2.9-1.6-4.7-1.6-.7 0-1.5.1-2.1.4-2.3.7-4 2.5-4.5 4.8-.3.8-.3 1.7-.1 2.5v.1l-.1.1C9.8 10.2 5.3 7.8 2.1 4c-.1-.2-.4-.2-.5.1C.9 5 .7 6.2.7 7.6c0 1.9.8 3.6 2 4.9-.5-.3-1.1-.4-1.5-.7-.3-.1-.5 0-.5.3 0 2.8 1.6 5.2 4 6.4h-.2c-.4 0-.8 0-1.2-.1-.3 0-.5.3-.4.4.8 2.5 2.9 4.4 5.5 4.8-2.1 1.5-4.5 2.1-7.1 2.1H.5c-.3 0-.4.1-.5.4 0 .3 0 .5.3.7 2.8 1.6 6.2 2.5 9.5 2.5 2.9 0 5.6-.5 8.2-1.7 2.3-1.1 4.3-2.5 6-4.4 1.6-1.7 2.8-3.9 3.6-6.2.8-2.1 1.2-4.5 1.2-6.7v-.1c0-.4.1-.7.4-.9 1.1-.8 2-1.9 2.8-3.1.1-.2-.2-.6-.4-.5z"></path>
+        </svg>
+      </a>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</body>
+</html>
